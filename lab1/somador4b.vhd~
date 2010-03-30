@@ -1,0 +1,8 @@
+entity somador4b is
+	port
+	(
+		a, b : in bit_vector(3 downto 0);
+		sum : out bit_vector(3 downto 0);
+		cout : out bit
+	);
+end somador4b;

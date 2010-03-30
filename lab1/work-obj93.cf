@@ -1,0 +1,13 @@
+v 3
+file . "somador1b.vhd" "20100323144107.000" "20100323142004.233":
+  entity somador1b at 1( 0) + 0 on 17;
+  architecture comportamental of somador1b at 6( 88) + 0 on 18;
+file . "somador4b.vhd" "20100323174657.000" "20100323134602.657":
+  entity somador4b at 1( 0) + 0 on 15;
+  architecture estrutural of somador4b at 10( 138) + 0 on 16;
+file . "tb_somador1b.vhd" "20100323144134.000" "20100323143134.922":
+  entity tb_somador1b at 1( 0) + 0 on 21;
+  architecture mixed of tb_somador1b at 4( 30) + 0 on 22;
+file . "tb_somador4b.vhd" "20100323183639.000" "20100323143538.018":
+  entity tb_somador4b at 1( 0) + 0 on 25;
+  architecture mixed of tb_somador4b at 4( 30) + 0 on 26;

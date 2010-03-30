@@ -1,0 +1,51 @@
+$date
+  Mon Mar 29 14:47:07 2010
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$var integer 32 ! a $end
+$var integer 32 " b $end
+$var integer 32 # s1 $end
+$var integer 32 $ s2 $end
+$var integer 32 % s3 $end
+$var integer 32 & s4 $end
+$var integer 32 ' s5 $end
+$enddefinitions $end
+#0
+b0 !
+b0 "
+b1 #
+b1 $
+b0 %
+b1 &
+b1 '
+#1000000
+b1 !
+b10 "
+b100 #
+b100 $
+b100 %
+b100 &
+b100 '
+#2000000
+b11 !
+b100 "
+b1000 #
+b1000 $
+b1000 %
+b1000 &
+b1000 '
+#3000000
+b101 !
+b110 "
+b1100 #
+b1100 $
+b1100 %
+b1100 &
+b1100 '
+#4000000
+#5000000
