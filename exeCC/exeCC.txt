@@ -1,0 +1,36 @@
+Exercicios:
+
+1) projetar cc com numero minimo de portas que funcione como "alarme" qdo um
+campo estiver ligado e o mootorista e/ou o passageiro nao esteja utilizando o
+cinto de seguranca. Utilize os seguintes sinais de entrada:
+	- DRIVE: ativo em alto. e indica presença do motorista.
+	- PASS: ativo em alto e indica presença do passageiro
+	- IGN: ativo em alto e indica chave de ignição ligada
+	- BelID e BelIP: ativo em baixo e inidica que o cinto de segurança do motorista e do passageiro não estão sendo utilizados
+	- ALARM: ativo em baixo. Indica que o carro foi ligado um dos assentos está ocupado mas o cinto de segurança não é utilizado.
+
+2 - Projetar CC controlador de semáforo e com a seguinte configuração:
+		
+		A
+		|
+ 		*
+	D -->	    <-- C
+		
+		^
+		|
+   		B
+	
+verde = 1
+vermelho = 0	
+
+	- 4 entrada (A, B, C, D) e duas saídas NS e LO. As saídas são ativas em alto quando a luz é verde.
+	- Sinal LO será verde quando as pistas C e D são ocupadas.
+	- Sinal LO será verde quando C ou D estiver ocupada e A e B estiverem vazias.
+	- Sinal NS será verde sempre que A e B estiverem ocupadas e C e D desocupadas.
+	- Sinal NS será verde quando A ou B estiverem ocupadas e C e D desocupadas.
+
+3 - Projetar CS que funcione como contador síncrone de 3 bits. A entrada é apenas o clock e a saída são três sinais(Q2, Q1, Q0).
+Dica: verificar comportamento do FF JK (Jump and Kill).
+
+4 - Projetar CS que funcione como deslocador síncrono de 7 bits. A cada borda de subida do clock o circuito deve deslocar paralelamente 7 bits de um registrador para outro. A entrada é um vetor de
+reset(ativo em baixo e assíncrono). A saída é formada por 4 vetores de 7 bits.	
