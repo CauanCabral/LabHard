@@ -1,0 +1,11 @@
+a <= x(2); -- Inválido
+b <= x(2); -- Válido
+b <= y(3,5); -- Válido
+b <= w(5)(3); -- Válido
+y(1)(0) <= z(7); -- Válido
+x(0) <= y(0,0); -- Válido
+x <= "1110000"; -- Inválido
+a <= "0000000"; -- Inválido
+y(1) <= x; -- Válido
+w(2)(7 downto 0) <= x; -- Válido
+w(0)(7 downto 6) <= z(5 downto 4); -- Válido
